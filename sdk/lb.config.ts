@@ -14,13 +14,13 @@
 *
 * export class MyApp {
 *   constructor() {
-*     LoopBackConfig.setBaseURL('http://localhost:3000');
+*     LoopBackConfig.setBaseURL('http://localhost:4200');
 *     LoopBackConfig.setApiVersion('api');
 *   }
 * }
 **/
 export class LoopBackConfig {
-  private static path: string = '//0.0.0.0:3000';
+  private static path: string = '//0.0.0.0:4200';
   private static version: string | number = 'api';
   private static authPrefix: string = '';
   private static debug: boolean = true;
